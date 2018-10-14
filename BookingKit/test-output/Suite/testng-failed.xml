@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestNg(failed)">
+    <parameter name="InvalidUsername" value="**********"/>
+    <parameter name="Username" value="dantis+test@bookingkit.de"/>
+    <parameter name="InvalidPassword" value="**********"/>
+    <parameter name="URL" value="https://releasetest.bookingkit.de"/>
+    <parameter name="Password" value="welcome@2018"/>
+    <classes>
+      <class name="com.Bookingkit.Task.BookingKitTaskUsingTestNG">
+        <methods>
+          <include name="main" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Bookingkit.Task.BookingKitTaskUsingTestNG -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TestNg">
+		<!-- <parameter name="host" value="http://192.168.0.1/wd/hub"/> -->
+		<parameter name="Username" value="dantis+test@bookingkit.de" />
+		<parameter name="Password" value="welcome@2018" />
+		<parameter name="InvalidUsername" value="**********" />
+		<parameter name="InvalidPassword" value="**********" />
+		<parameter name="URL" value="https://releasetest.bookingkit.de" />
+		
+		<classes>
+			<class name="com.Bookingkit.Task.BookingKitTaskUsingTestNG" />
+		</classes>
+	</test> <!-- TestNg -->
+</suite> <!-- Suite -->

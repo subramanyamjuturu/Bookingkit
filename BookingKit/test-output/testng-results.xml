@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19102" started-at="2018-10-14T11:02:57Z" finished-at="2018-10-14T11:03:16Z">
+    <groups>
+    </groups>
+    <test name="TestNg" duration-ms="19102" started-at="2018-10-14T11:02:57Z" finished-at="2018-10-14T11:03:16Z">
+      <class name="com.Bookingkit.Task.BookingKitTaskUsingTestNG">
+        <test-method status="PASS" signature="main(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Bookingkit.Task.BookingKitTaskUsingTestNG@50d0686]" name="main" duration-ms="19082" started-at="2018-10-14T11:02:57Z" finished-at="2018-10-14T11:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dantis+test@bookingkit.de]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome@2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[**********]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[**********]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://releasetest.bookingkit.de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.Bookingkit.Task.BookingKitTaskUsingTestNG -->
+    </test> <!-- TestNg -->
+  </suite> <!-- Suite -->
+</testng-results>
